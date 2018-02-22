@@ -1,3 +1,4 @@
+#dev
 eureka:
   client:
     serviceUrl:
