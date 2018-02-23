@@ -4,6 +4,9 @@ zuul:
     usercenter:
       path: /uc/**
       serviceId: usercenter
+    usercenter-url:
+      path: /uc-url/**
+      url: http://localhost:1234
 eureka:
   client:
     serviceUrl:
