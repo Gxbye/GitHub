@@ -1,1 +1,11 @@
 #dev
+zuul:
+  routes:
+    usercenter:
+      path: /uc/**
+    usercenter:
+      serviceId: usercenter
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
