@@ -3,8 +3,7 @@ zuul:
   routes:
     usercenter:
       path: /uc/**
-        usercenter:
-            serviceId: usercenter
+      serviceId: usercenter
 eureka:
   client:
     serviceUrl:
