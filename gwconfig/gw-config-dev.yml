@@ -9,7 +9,7 @@
 #
 zuul:
   routes:
-    sc:
+    SYSTEMCENTER:
       path: /sc/**
       serviceId: SYSTEMCENTER
 eureka:
