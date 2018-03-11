@@ -1,13 +1,15 @@
 #dev
+#
+#    usercenter:
+#      path: /uc/**
+#     serviceId: usercenter
+#    usercenter-url:
+#      path: /uc-url/**
+#      url: http://localhost:1234
+#
 zuul:
   routes:
-    usercenter:
-      path: /uc/**
-      serviceId: usercenter
-    usercenter-url:
-      path: /uc-url/**
-      url: http://localhost:1234
-    syscenter:
+    SYSTEMCENTER:
       path: /sc/**
       serviceId: SYSTEMCENTER
 eureka:
