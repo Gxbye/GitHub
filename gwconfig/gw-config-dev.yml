@@ -12,6 +12,7 @@ zuul:
     sc:
       path: /sc/**
       serviceId: systemcenter
+      stripPrefix: false
 eureka:
   client:
     serviceUrl:
