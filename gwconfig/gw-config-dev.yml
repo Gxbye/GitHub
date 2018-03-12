@@ -17,6 +17,11 @@ zuul:
        path: /uc/**
        serviceId: usercenter
        stripPrefix: false
+security:
+    user:
+    password: user
+    ignored: /
+    sessions: never
 eureka:
   client:
     serviceUrl:
