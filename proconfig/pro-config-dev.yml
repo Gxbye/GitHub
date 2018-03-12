@@ -29,5 +29,5 @@ management:
       enabled: false # health except mail
 security:
   user:
-    name:
-    password: 
+    name: g
+    password: sisi
