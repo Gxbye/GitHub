@@ -21,5 +21,13 @@ spring:
       database: test
 #系统健康检测
 management:
+  port: 9527 # Set Security Port
   security:
     enabled: false
+  health:
+    mail:
+      enabled: false # health except mail
+security:
+  user:
+    name:
+    password: 
