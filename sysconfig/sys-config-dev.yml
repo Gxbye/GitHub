@@ -20,3 +20,12 @@ spring:
       uri: mongodb://localhost:27017
       database: test
 #系统健康检测
+management:
+    context-path: /sc
+    security:
+        enabled: false
+        roles: SUPERUSER
+security:
+    user:
+        name: tx
+        paddword: tx
