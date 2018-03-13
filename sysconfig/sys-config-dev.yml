@@ -20,14 +20,3 @@ spring:
       uri: mongodb://localhost:27017
       database: test
 #系统健康检测
-management:
-  port: 9528 # Set Security Port
-  security:
-    enabled: false
-  health:
-    mail:
-      enabled: false # health except mail
-security:
-  user:
-    name: g
-    password: sisi
