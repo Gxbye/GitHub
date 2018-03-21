@@ -19,9 +19,4 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017
       database: test
-Aslog:
-  serviceUrl:  http://LOGSERVICE
-  mname: info
-  types: Debug,Info,Warn,Error
-  serviceId: systemcenter
 #系统健康检测
