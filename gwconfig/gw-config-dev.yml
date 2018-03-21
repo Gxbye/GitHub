@@ -17,6 +17,10 @@ zuul:
        path: /uc/**
        serviceId: usercenter
        stripPrefix: false
+    log:
+       path: /log/**
+       serviceId: logcenter
+       stripPrefix: false
 eureka:
   client:
     serviceUrl:
