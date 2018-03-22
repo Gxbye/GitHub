@@ -20,7 +20,7 @@ spring:
       uri: mongodb://localhost:27017
       database: test
 Aslog:
-  serviceUrl:  http://LOGSERVICE
+  serviceUrl: http://LOGSERVICE
   mname: create
   types: "Debug,Info,Warn,Error"
   serviceId: logcenter
