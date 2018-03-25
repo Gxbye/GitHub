@@ -22,6 +22,6 @@ spring:
 Aslog:
   serviceUrl: http://LOGSERVICE
   mname: create
-  types: "Debug,Info,Warn,Error"
+  types: Debug,Info,Warn,Error
   serviceId: systemcenter
 #系统健康检测
