@@ -1,8 +1,17 @@
 #dev
+#服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+#EurekaServer必须eureka.server.eviction-interval-timer-in-ms否则此配置无效，一般为服务刷新时间配置的三倍
+#默认90s
+#服务刷新时间配置，每隔这个时间会主动心跳一次
+#默认30s
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+    registryFetchIntervalSeconds: 5
+    instance:
+      lease-expiration-duration-in-seconds: 15
+      lease-renewal-interval-in-seconds: 5
 spring:
   redis:
     database: 0
@@ -19,6 +28,10 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017
       database: test
+#Eureka Client Refresh Ribbon Time
+#Default Is 30s
+ribbon:
+    ServerListRefreshInterval:5000
 Aslog:
   serviceUrl: http://LOGSERVICE
   mname: create
