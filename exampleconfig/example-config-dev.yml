@@ -1,6 +1,4 @@
 #dev
-appd:
-  name: 示例中心
 eureka:
   client:
     serviceUrl:
