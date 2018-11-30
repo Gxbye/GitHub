@@ -20,10 +20,10 @@ spring:
       uri: mongodb://localhost:27017
       database: test
 ribbon:
-    ServerListRefreshInterval:5000
+    ServerListRefreshInterval: 5000
 Aslog:
   serviceUrl: http://LOGSERVICE
   mname: create
-  types: Debug,Info,Warn,Error
+  types: Debug, Info, Warn, Error
   serviceId: logcenter
 #系统健康检测
